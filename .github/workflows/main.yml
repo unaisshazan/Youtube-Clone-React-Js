@@ -35,4 +35,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge 
     - name: Deploy Using Surge
-      run: surge ./build   unaisyt.surge.sh --token  ${{ secrets.COVID19}}
+      run: surge ./build   unaisyt.surge.sh --token  ${{ secrets.REACT}}
